@@ -1,7 +1,7 @@
 clc; clear;
 
 % 获取当前文件夹下所有满足命名规则的 .mat 文件
-fileList = dir('C:\Users\Wu Yujin\OneDrive - Nanyang Technological University\Documents\Lumerical\20250401 QCL router\4_QCL Router 20250507\3D\3D gap=2um 2000um Lc 0_0025loss.mat');  % 可修改为你自己的文件名模式
+%fileList = dir('C:\Users\Wu Yujin\OneDrive - Nanyang Technological University\Documents\Lumerical\20250401 QCL router\4_QCL Router 20250507\3D\3D gap=2um 2000um Lc 0_0025loss.mat');  % 可修改为你自己的文件名模式
 %fileList = dir('*.mat')
 % 批处理每个文件
 for k = 1:length(fileList)
